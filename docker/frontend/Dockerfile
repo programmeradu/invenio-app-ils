@@ -9,7 +9,7 @@ FROM node:12 AS react-build
 
 ENV WORKING_DIR=/code
 RUN mkdir -p ${WORKING_DIR}
-RUN git clone https://github.com/inveniosoftware/react-invenio-app-ils.git ${WORKING_DIR}
+RUN git clone https://github.com/programmeradu/react-invenio-app-ils.git ${WORKING_DIR}
 WORKDIR ${WORKING_DIR}
 
 # build React application

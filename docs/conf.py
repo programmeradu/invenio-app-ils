@@ -113,7 +113,7 @@ html_theme = 'alabaster'
 
 html_theme_options = {
     'description': 'Invenio app ils',
-    'github_user': 'inveniosoftware',
+    'github_user': 'programmeradu',
     'github_repo': 'invenio_app_ils',
     'github_button': False,
     'github_banner': True,
